@@ -2937,24 +2937,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="109.22" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="GPS" gate="-6" pin="S"/>
-<wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="22.86" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
-<wire x1="93.98" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="GPS" gate="-5" pin="S"/>
-<wire x1="96.52" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="25.4" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
-<wire x1="91.44" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
@@ -3062,6 +3044,24 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="170.18" y1="5.08" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SPEAKER" gate="-1" pin="S"/>
 <wire x1="170.18" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
+<wire x1="88.9" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="53.34" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="GPS" gate="-5" pin="S"/>
+<wire x1="93.98" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
+<wire x1="88.9" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="50.8" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GPS" gate="-6" pin="S"/>
+<wire x1="91.44" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

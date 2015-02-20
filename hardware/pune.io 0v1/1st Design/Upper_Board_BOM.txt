@@ -1,0 +1,47 @@
+Partlist exported from /home/tanmayee/eagle/Rev/Upper_Board.sch at 20/02/15 6:37 PM
+
+Part     Value      Device          Package         Description                                 MF    MPN        OC_FARNELL OC_NEWARK PROD_ID   VALUE 
+ADXL335             22-23-2061      22-23-2061      .100" (2.54mm) Center Header - 6 Pin        MOLEX 22-23-2061 1462922    27C1933                   
+BATT                JST_2PIN-SMT-RA JST-PH-2-SMT-RA JST 2-Pin Connectors of various flavors                                                           
+C1       4.7uF      CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C2       0.1uF      CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C3       0.1uF      CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C4       47uF       CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C5       3.3nF      CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C6       33pf       CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C7       4.7uF      CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+C9       10uF       CAP0603-CAP     0603-CAP        Capacitor                                                                                         
+CHRG/LBO YELLOW     LED-YELLOWLARGE LED-1206        Yellow SMD LEDs                                                                   DIO-00820 YELLOW
+DONE     GREEN      LED-GREENLARGE  LED-1206        Various green LEDs                                                                DIO-00862 GREEN 
+GPS      22-23-2091 22-23-2091      22-23-2091      .100" (2.54mm) Center Header - 9 Pin        MOLEX 22-23-2091 1756827    56H0450                   
+IC1      7805DT     7805DT          TO252           Positive VOLTAGE REGULATOR                                                                        
+IC2      LM35DT     LM35DT          TO220V          Single-Supply Centigrade Temperature Sensor                                                       
+IC4      MCP73871   MCP73871        QFN20_4MM                                                                                                         
+LDR1                LDR5MM          LDR338-54C                                                                                                        
+LDR2     NTC        LDR5MM          LDR338-54C                                                                                                        
+LTC3115  AD7302SMD  AD7302SMD       TSSOP20         8-bit parallel input 2-output DAC                                                                 
+PIR      22-23-2031 22-23-2031      22-23-2031      .100" (2.54mm) Center Header - 3 Pin        MOLEX 22-23-2031 1462950    30C0862                   
+PWR      RED        LED-RED1206     LED-1206        Assorted Red LEDs                                                                 DIO-00809 RED   
+R1                  RESISTOR1206    1206            Resistor                                                                                          
+R2       270K       RESISTOR1206    1206            Resistor                                                                                          
+R3       100K       RESISTOR1206    1206            Resistor                                                                                          
+R4       330Ohms    RESISTOR1206    1206            Resistor                                                                                          
+R5       1M         RESISTOR1206    1206            Resistor                                                                                          
+R6       60.4K      RESISTOR1206    1206            Resistor                                                                                          
+R7       249K       RESISTOR1206    1206            Resistor                                                                                          
+R8       15K        RESISTOR1206    1206            Resistor                                                                                          
+R9       47.5K      RESISTOR1206    1206            Resistor                                                                                          
+R10      330Ohms    RESISTOR1206    1206            Resistor                                                                                          
+R11      330Ohms    RESISTOR1206    1206            Resistor                                                                                          
+R12      8.2K       RESISTOR1206    1206            Resistor                                                                                          
+R13      100K       RESISTOR1206    1206            Resistor                                                                                          
+R14      1K         RESISTOR1206    1206            Resistor                                                                                          
+RT2      150K       RESISTOR1206    1206            Resistor                                                                                          
+U$1      10uH       INDUCTOR1206H*  INDUCTOR-1206   Inductors                                                                                         
+U$2      TRIMPOTSMD TRIMPOTSMD      TRIMPOT-3MM                                                                                                       
+U$3      TRIMPOTSMD TRIMPOTSMD      TRIMPOT-3MM                                                                                                       
+U$4      LMV358     LMV358          SO08                                                                                                              
+X1                  22-23-2061      22-23-2061      .100" (2.54mm) Center Header - 6 Pin        MOLEX 22-23-2061 1462922    27C1933                   
+X2                  22-23-2061      22-23-2061      .100" (2.54mm) Center Header - 6 Pin        MOLEX 22-23-2061 1462922    27C1933                   
+X3       SYHS220    22-23-2031      22-23-2031      .100" (2.54mm) Center Header - 3 Pin        MOLEX 22-23-2031 1462950    30C0862                   
+X4       22-23-2021 22-23-2021      22-23-2021      .100" (2.54mm) Center Header - 2 Pin        MOLEX 22-23-2021 1462926    25C3832                   

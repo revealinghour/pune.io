@@ -1,0 +1,22 @@
+Partlist exported from /home/tanmayee/eagle/Rev/Lower_board.sch at 20/02/15 6:35 PM
+
+Part Value           Device          Package          Description                                   MF    MPN        OC_FARNELL OC_NEWARK PROD_ID   VALUE          
+BAT1                 BATTERY20PTH    BATTCOM_20MM_PTH Battery Holders                                                                                              
+BATT                 JST_2PIN-SMT-RA JST-PH-2-SMT-RA  JST 2-Pin Connectors of various flavors                                                                      
+C8   22pF            CAP0603-CAP     0603-CAP         Capacitor                                                                                                    
+C9   22pF            CAP0603-CAP     0603-CAP         Capacitor                                                                                                    
+D1   BLUE            LED-BLUE1206    LED-1206         Blue LEDs for production use                                                        DIO-09911 BLUE           
+D2   YELLOW          LED-YELLOWLARGE LED-1206         Yellow SMD LEDs                                                                     DIO-00820 YELLOW         
+GSM  22-23-2121      22-23-2121      22-23-2121       .100" (2.54mm) Center Header - 12 Pin         MOLEX 22-23-2121 1462935    56H0456                            
+ICSP                 ML6             ML6              HARTING                                                        unknown    unknown                            
+Q1   32.768khz       CRYSTALTXC-7A   CRYSTAL-TXC-7A   Various standard crystals. Proven footprints.                                                                
+R1   330Ohm          RESISTOR1206    1206             Resistor                                                                                                     
+R2   330Ohm          RESISTOR1206    1206             Resistor                                                                                                     
+R3   4.7KOhm         RESISTOR1206    1206             Resistor                                                                                                     
+R4   4.7KOhm         RESISTOR1206    1206             Resistor                                                                                                     
+RTC  DS1307          DS1307          SOIC-8           I2C Serial RTC w/56 bytes battery backed RAM                                                                 
+U1   ATMEGA328P_TQFP ATMEGA328P_TQFP TQFP32-08                                                                                            IC-09069  ATMEGA328P_TQFP
+X1                   22-23-2061      22-23-2061       .100" (2.54mm) Center Header - 6 Pin          MOLEX 22-23-2061 1462922    27C1933                            
+X2                   22-23-2061      22-23-2061       .100" (2.54mm) Center Header - 6 Pin          MOLEX 22-23-2061 1462922    27C1933                            
+X3   22-23-2021      22-23-2021      22-23-2021       .100" (2.54mm) Center Header - 2 Pin          MOLEX 22-23-2021 1462926    25C3832                            
+Y1                   CRYSTALTXC-7A   CRYSTAL-TXC-7A   Various standard crystals. Proven footprints.                                                                

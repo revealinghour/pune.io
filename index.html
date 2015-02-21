@@ -1,20 +1,139 @@
+<!DOCTYPE html>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-<title>Pune.io by RHC</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta name="keywords" content="Pune,Smart,City,RHC,Smart City,Revealing,Hour,Creation" />
-<meta name="description" content="This is a collection of Crowd Sourced Data. Anyone with a key can access the data from anywhere in the world. This data is collected from many devices placed at various geographical locations across the city of pune. This data can be used to develop various kinds of applications." />
-<meta name="author" content="Tanmayee, Mithilesh, Snehal" />
-<link rel="stylesheet" type="text/css" href="landingcss.css">
-</head>
-<body>
-<font color=purple>
-<p><font size=20 color=007000><center>Welcome to <i><b>"Pune.io"</i></b></font></p>
-<p>Imagine if you can interact with your city just the way you do with your smartphone !!!</p><p>
-Imagine you can communicate with it, receive data from it and use it for anything and everything which you want to do.</p>
-<p>You don't need to imagine... We have brought a way for you to do it.</p>
-<p>Here's the device which can serve all the above purposes. different devices situated at different geographical locations collect various data elements and send it to our servers which provide a platform for people to access that data. This data can be used for different applications as required by any individual.</center></p>
-<footer><p>Authored by Tanmayee, Mithilesh, Snehal</p></footer></font>
-</body>
-</html>
+  <head>
+    <title>Pune.io by RHC</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Pune,Smart,City,RHC,Smart City,Revealing,Hour,Creation,IOT,Internet of things" />
+    <meta name="description" content="This is a collection of Crowd Sourced Data. Anyone with a key can access the data from anywhere in the world. This data is collected from many devices placed at various geographical locations across the city of pune. This data can be used to develop various kinds of applications." />
+    <meta name="author" content="Tanmayee, Mithilesh" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+	</head>
+	<body>
+	  <div id="header">
+			<span class="logo icon fa-university"></span>
+			<h1>Welcome to Pune.io</h1>
+			<p>A "smart" city data monitoring platform.<br>
+			  Here you can access all of your city's data and use it as yours!!!<br>
+			  Now's your chance to know your city, Pune, better, right from your fingertips!!!</p>
+			</div>
+			<div id="main">
+				<header class="major container 125%">
+					<h2>We collect data from different devices spread across Pune.
+					<br />
+					You can access this data by using our API and build your very own Pune app.
+					<br />
+					Or you could simply look at the representation of that very data in our website.<br />The data can be anything from temperature or humidity to something you want.</h2>
+				</header>
+				<div class="box alt container">
+					<section class="feature left">
+						<a class="image icon fa-map-marker"><img src="images/pic01.jpg" alt="" /></a>
+						<div class="content">
+							<h3>Geo-Tagged</h3>
+							<p>The data is geo-tagged by using <b>GPS</b> co-ordinates so that you can know for sure that you are accessing the data from a particular area only.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a class="image icon fa-sun-o"><img src="images/pic02.jpg" alt="" /></a>
+						<div class="content">
+							<h3>Powered by the Sun</h3>
+							<p>The devices which are placed across Pune are powered by the amazing and powerful friend of ours, <b>The Sun</b>. This means you'll never run out of <b>juice</b> for your device.</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a class="image icon fa-signal"><img src="images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>Connected by GSM</h3>
+							<p>The devices are always connected to the internet by the use of <b>GSM</b>. This means the devices are always <b>online</b> and will be uploading the data and other parameters such as battery level etc.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a class="image icon fa-users"><img src="images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>Crowd Sourced Data</h3>
+							<p>The data will be <b>sourced</b> from the crowd. More than one device will be placed in a certain area so that the <b>reliability</b> of data will be high.</p>
+						</div>
+					</section>
+				</div>
+				<div class="box container">
+					<header>
+						<h3>Stats for Nerds</h3>
+					</header>
+					<section>
+						<header>
+							<h2>Software</h2>
+							<p>This is the list of software magic we are using<br>
+							  <ul>
+							    <li><a href="API/APIDoc.html" target=_blank>RESTful API</a></li>
+							    <li><a href="http://leafletjs.com/" target=_blank>Leaflet.js</a> for displaying Maps</li>
+							    <li><a href="http://geojson.org/" target=_blank>Geo-Json</a> output format</li>
+							    <li><a href="http://nodejs.org/" target=_blank>Node.js</a> based server for serving the API requests</li>
+							  </ul>
+							</p>
+							<h2>Hardware</h2>
+							<p>This is the hardware we are using<br>
+							  <ul>
+							    <li><a href="http://www.ti.com/lit/ds/symlink/lm35.pdf" target=_blank>LM35</a> for temperature sensing</li>
+							    <li><a href="http://www.tme.eu/en/Document/d6b8c08f190d39bd5204c1edb9fc2516/sy-hs-220.pdf" target=_blank>SYHS220</a> for humidity</li>
+							    <li><a href="http://www.biltek.tubitak.gov.tr/gelisim/elektronik/dosyalar/40/LDR_NSL19_M51.pdf" target=_blank>LDR</a> for ambient light</li>
+							    <li><a href="http://elecfreaks.com/store/download/datasheet/sensor/DYP-ME003/Specification.pdf" target=_blank>PIR</a> sensor module for motion sensing</li>
+							    <li><a href="https://www.sparkfun.com/datasheets/Components/SMD/adxl335.pdf" target=_blank>ADXL335</a> accelerometer module for acceleration sensing of the device</li>
+							    <li><a href="https://www.adafruit.com/products/1963" target=_blank>Adafruit FONA</a> GSM module for GSM connectivity</li>
+							    <li><a href="https://www.adafruit.com/products/746" target=_blank>Adafruit GPS</a> module for GPS locating</li>
+							    <li><a href="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" target=_blank>Atmega328p</a> microcontroller</li>
+							    <li><a href="http://cds.linear.com/docs/en/datasheet/31151fa.pdf" target=_blank>LTC3115-1</a> for powering up the microcontroller and everything else</li>
+							    <li><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20002090C.pdf" target=_blank>MCP73871</a> for charging the battery using Solar panel</li>
+							    <li><a href="https://www.sparkfun.com/datasheets/Components/DS1307.pdf" target=_blank>DS1307</a> RTC IC for timekeeping</li>
+							  <ul>
+							</p>
+						</header>
+					</section>
+					</div>
 
+				<footer class="major container 125%">
+					<b><h3>Amazing things you can do with it</h3>
+					<font size="6">
+					<p>A List of magic tricks you can perform<p>
+					<ul>
+					    <li>Accessing the data from anywhere and on any device<br></li>
+					    <li>Create a heatmap or heat timeline of any area or the whole city</li>
+					    <li>Real time monitoring of City traffic and alerting yourself and the community of any traffic congestions</li>
+					    <li>Providing advanced navigation based on GPS and Accelerometer which detects bumps, speedbreakers etc.</li>
+					    <li>Any other application made for your mobile phone which can access all the features right in your hand</li>
+					  </ul>
+					</p></b></font>
+				</footer> 
+		  </div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container 75%">
+
+					<header class="major last">
+						<h2>Meet the Superheroes who made it possible</h2>
+					</header>
+					<ul class="icons">
+						<li><a href="https://github.com/mithileshd27" class="icon fa-github" target=_blank><span class="label">Mithilesh Domala</span></a></li>
+						<li><a href="https://github.com/tanmayee30" class="icon fa-github" target=_blank><span class="label">Tanmayee Mete</span></a></li>
+						<li><a href="https://github.com/RevealingHourCreations/pune.io" class="icon fa-github" target=_blank><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-twitter" target=_blank><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-dribbble" target=_blank><span class="label">Dribbble</span></a></li>
+					</ul>
+				</div>
+			</div>
+	</body>
+</html>
+		
+    
